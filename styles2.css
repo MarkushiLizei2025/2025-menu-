@@ -9,8 +9,11 @@ body {
 
 h1 {
     color: #333;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 2.5rem; /* Використовуємо rem для кращої масштабованості */
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Додаємо тінь для об'єму */
+    font-family: 'Arial', sans-serif; /* Змінюємо шрифт */
+    font-weight: bold; /* Робимо текст жирним */
 }
 
 /* Таблиця */
