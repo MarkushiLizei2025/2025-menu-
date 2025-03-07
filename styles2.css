@@ -14,6 +14,7 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Додаємо тінь для об'єму */
     font-family: 'Arial', sans-serif; /* Змінюємо шрифт */
     font-weight: bold; /* Робимо текст жирним */
+    text-align: center;
 }
 
 /* Таблиця */
