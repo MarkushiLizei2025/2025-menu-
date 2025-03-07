@@ -1,0 +1,82 @@
+/* Основні стилі сторінки */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f5e6e8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Таблиця */
+table {
+    width: 70%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f0fff0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #24ad1a;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #98c99c;
+    color: #052415;
+    font-weight: bold;
+}
+
+td:first-child {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+/* Ефект при наведенні на рядки таблиці */
+tr:hover {
+    background-color: #e0f2e0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Стилі для посилань */
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+/* Стилі для списків */
+ul, ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Стилі для зображень та iframe */
+img {
+    border-radius: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
